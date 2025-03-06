@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(
+      to right,
+      #3198e280,
+      #6e59c07e,
+      #b9358f73,
+      #e33f606e,
+      #fdd5797a
+    );
+}
+h1 {
+      text-align: center;
+}
+h2 {
+      text-align: center;
+}
+p {
+      text-align: justify;
+      text-indent: 15px;
+}
+
+#sim{
+    background-color: chartreuse;
+    color: rgba(0, 72, 255, 0.475);
+}
+#euta{
+    background-color: aliceblue;
+    color: blueviolet;
+}
+#caraca{
+    background-color: aqua;
+    color: chocolate;
+}

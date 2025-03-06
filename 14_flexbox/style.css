@@ -1,0 +1,18 @@
+body{
+    background-color: grey;
+}
+.container{
+    display: flex;
+    background-color: purple;
+    justify-content: center;
+    gap: 10px;
+    height: 600px;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.item-1{
+    align-self: flex-end;
+}

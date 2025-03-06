@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+}
+nav {
+    display: flex; /* Deixa os itens na horizontal */
+    gap: 10px; /* Adiciona um espaço entre os itens */
+    background-color: darkgrey;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+nav > a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white;
+    padding: 5px 10px;
+    background-color: #555; /* Uma cor para diferenciar os itens */
+    border-radius: 5px;
+}
+
+h2{
+    padding: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+
+article > p{
+    background-color: #555;
+    color: whitesmoke;
+    margin: 10px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 23px;
+    justify-content: center;
+}
+
+aside > p{
+    background-color: #a09f9f9c;
+    color: rgba(41, 20, 124, 0.909);
+    margin: 10px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 23px;
+    justify-content: center;
+}
+
+footer{
+    background-color: black;
+    color: violet;
+    padding: 50px;
+    margin: 20px;
+    font-size: 19px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 23px;
+    justify-content: center;
+}
