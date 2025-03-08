@@ -12,7 +12,7 @@ html, body{
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: italic;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 header { 
@@ -51,17 +51,40 @@ section{
 
 section.normal{
     background-color: aliceblue;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 section.imagem{
-    background-color: rgba(0, 0, 0, 0.456);
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
+    box-shadow: inset 5px 5px 12px 0px rgba(0,0,0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     width: 400px;
-    background-color: rgba(0,0,0,0.253);
+    background-color: rgba(0, 0, 0, 0.066);
+    text-shadow: 2px 2px 0px black;
+    border-radius: 20px;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section#img01 {
+    background-image: url('../19_cordel/image/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+section#img02{
+    background-image: url('../19_cordel/image/background002.jpg');
+    background-position: right center;
+    
 }
 
 footer{
