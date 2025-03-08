@@ -74,7 +74,7 @@ section > p{
 }
 
 section#img01 {
-    background-image: url('../19_cordel/image/background001.jpg');
+    background-image: url('./image/background001.jpg');
     background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ section#img01 {
 
 
 section#img02{
-    background-image: url('../19_cordel/image/background002.jpg');
+    background-image: url('./image/background002.jpg');
     background-position: right center;
     
 }
