@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.item{
+    margin: auto;
+    background-color: aquamarine;
+    border: 1px solid black;
+    width: 200px;
+}
